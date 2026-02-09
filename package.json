@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://YOUR_USERNAME.github.io/to-do-list",
+  "homepage": "https://kumar-aryan-99pk.github.io/to-do-list",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
