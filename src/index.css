@@ -1,0 +1,102 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#root,body{
+  height: 100vh;
+}
+
+body{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: hsl(0, 0%, 8%);
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.to-do-list{
+  height: 98%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+button{
+  width: 60px;
+  aspect-ratio: 2/1;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 600;
+  color: aliceblue;
+  border-width: 0px;
+  border: 1px solid hsl(0, 0%, 10%);
+  transition: all 150ms ease-in-out;
+}
+.add-button{
+  background-color: rgb(80, 173, 80);
+}
+
+.delete-button{
+  background-color: rgb(214, 87, 87);
+}
+
+.moveup,.movedown{
+  height: 30px;
+  width: 30px;
+  border-radius: 0;
+  border-radius: 20px;
+  background-color: rgb(6, 54, 109);
+}
+
+button:hover{
+  background-color: rgb(66, 67, 3);
+}
+
+input{
+  width: clamp(70px,40vmax,600px);
+  height: 30px;
+  border-radius: 20px;
+  padding: 16px;
+}
+
+ol{
+  font-size: 1.6rem;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+ol li{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  width: 100%;
+}
+
+
+.task-name{
+  flex: 1;
+  word-break: break-word;
+}
+
+.footer{
+  position: sticky;
+  bottom: 0;
+  width: 100vw;
+  background-color: hsl(0, 0%, 15%);
+  text-align: center;
+}
+
+a{
+  color: aliceblue;
+  text-decoration: none;
+}
