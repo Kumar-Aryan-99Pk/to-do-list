@@ -1,30 +1,29 @@
-# 📝 To-Do List App
+# To-Do List App
 
-A simple and modern **To-Do List Web Application** built using React and Vite.
-This app helps users manage daily tasks efficiently.
-
----
-
-## 🚀 Features
-
-* ✅ Add new tasks
-* ✏️ Edit tasks
-* ❌ Delete tasks
-* 📋 Mark tasks as completed
-* ⚡ Fast performance using Vite
-* 🎨 Clean and responsive UI
+This is a simple and modern To-Do List web application built using React and Vite. It helps you manage your daily tasks in a straightforward and efficient way.
 
 ---
 
-## 🛠️ Tech Stack
+## Features
 
-* ⚛️ React.js
-* ⚡ Vite
-* 🎨 CSS
+- Add new tasks  
+- Edit existing tasks  
+- Delete tasks  
+- Mark tasks as completed  
+- Fast performance using Vite  
+- Clean and responsive user interface  
 
 ---
 
-## 📂 Project Structure
+## Tech Stack
+
+- React.js  
+- Vite  
+- CSS  
+
+---
+
+## Project Structure
 
 ```
 to-do-list-main/
@@ -41,27 +40,27 @@ to-do-list-main/
 
 ---
 
-## ▶️ Getting Started
+## Getting Started
 
-### 1️⃣ Clone the repository
+### 1. Clone the repository
 
 ```
 git clone https://github.com/your-username/to-do-list.git
 ```
 
-### 2️⃣ Navigate to project folder
+### 2. Navigate to the project folder
 
 ```
 cd to-do-list
 ```
 
-### 3️⃣ Install dependencies
+### 3. Install dependencies
 
 ```
 npm install
 ```
 
-### 4️⃣ Run the project
+### 4. Run the project
 
 ```
 npm run dev
@@ -69,21 +68,18 @@ npm run dev
 
 ---
 
-## 🌐 Live Demo
+## Repository
 
-👉 https://github.com/Kumar-Aryan-99Pk/to-do-list.git
-
----
-
-
-## 🙋‍♂️ Author
-
-* 👤 Kumar Aryan
+https://kumar-aryan-99pk.github.io/to-do-list/
 
 ---
 
-## ⭐ Support
+## Author
 
-If you like this project, please ⭐ the repository!
+Kumar Aryan  
 
 ---
+
+## Support
+
+If you find this project helpful, consider starring the repository.
